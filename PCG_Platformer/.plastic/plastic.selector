@@ -1,0 +1,4 @@
+repository "Mario@relaxer29@cloud.cn"
+  path "/"
+    smartbranch "/main" 
+     

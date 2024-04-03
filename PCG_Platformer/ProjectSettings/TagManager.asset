@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Object
+  - Die
+  - Spike
+  - Bullet
+  - End
+  - Linedie
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - TriggerBox
+  - Player
+  - Linedie
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1122116551
+    locked: 0
+  - name: Portals
+    uniqueID: 797394175
+    locked: 0
+  - name: Spike
+    uniqueID: 2448990813
+    locked: 0
+  - name: Level
+    uniqueID: 119780777
+    locked: 0
