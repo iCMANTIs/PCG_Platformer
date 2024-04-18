@@ -1,0 +1,9 @@
+This is a 2D platformer game where the platforms are procedurally generated. Players can dynamically adjust the difficulty by providing feedback.
+PCG algorithm used
+The WFC algorithm is chosen. The WFC algorithm is a pattern-based PCG algorithm that generates maps by selecting and collapsing probability distributions in a wave function. Each grid cell possesses all possibilities (i.e., all possible tiles) before observation (collapse). The reason for choosing this algorithm might be its powerful flexibility and capability.
+Pattern 
+Component: By dispersing functionalities into different components (such as PlayerController and WFCGenerator), the code organization enables independent development and testing of various game logic parts, such as player control and map generation. This approach contributes to the maintainability and scalability of the code.
+States: The states (such as isGround, canDoubleJump, isHurt, etc.) within PlayerController distinctly control changes in player behavior. This method makes the management of player behavior clear and flexible.
+Singleton: The singleton pattern is typically used to ensure that a class has only one instance and provides a global access point to it. Considering that the game might need to create multiple map instances in scenes, using the singleton pattern may limit this flexibility.
+Potential Improvement
+Optimizing Algorithm Efficiency: The WFC algorithm might become inefficient when solving certain constraint conditions, especially in large-scale map generation. Consideration could be given to implementing optimization strategies, such as pre-processing compatibility for certain patterns. When the project was ran first time after WFC was implemented, the editor froze because I didn't manage the generation scope and quantity properly.
